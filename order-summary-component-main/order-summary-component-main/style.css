@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/renato.svg);
+    background-repeat: no-repeat;
+     background-size: cover;
+  background-position: center center;
+  background-color: #e0e6ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 380px;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imagem img {
+    width: 100%;
+    display: block;
+}
+
+.conteudo {
+    padding: 40px 35px;
+}
+
+h1 {
+    color: #1f2f56;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    color: #7280a7;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.plano {
+    background-color: #f7f8ff;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    gap: 15px;
+}
+
+.icone {
+    background-color: #e0e6ff;
+    color: #7280a7;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.informacoes {
+    text-align: left;
+    flex: 1;
+}
+
+.informacoes h3 {
+    color: #1f2f56;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.informacoes p {
+    color: #7280a7;
+    font-size: 14px;
+}
+
+.plano a {
+    color: #3829e0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pagamento {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3829e0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 10px 20px #d0ccf5;
+    margin-bottom: 25px;
+}
+
+.pagamento:hover {
+    background-color: #766cf1;
+}
+
+.cancelar {
+    display: block;
+    text-decoration: none;
+    color: #7280a7;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cancelar:hover {
+    color: #1f2f56;
+}
